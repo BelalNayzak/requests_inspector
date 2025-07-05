@@ -29,10 +29,10 @@ And more!
 
 2.  📱👈 : **Long-Press** on any free space on the screen.
 
-<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_list_dark.jpg" width ="280" />
-<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_request_json_dark.jpg" width ="280" />
-<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_options_light.jpg" width ="280" />
-<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_request_txt_light.jpg" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_list_dark.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_request_json_dark.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_options_light.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_request_txt_light.png" width ="280" />
 
 Also you can share the request details as (**Log** or **cURL** command) with your team to help them debug the API requests.
 
