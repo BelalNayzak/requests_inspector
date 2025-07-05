@@ -12,11 +12,16 @@ A Flutter package for **logging** API requests (**Http Requests** & **GraphQL**)
 
 ### Main Features:
 
-1.  Log your `Http request`, `GraphQL` and `WebSockets`.
-2.  Intercept your requests and responses for testing.
-3.  Share request details as json or as `cURL` to re-run it again (ex. `Postman`).
+1.  🌐 Log your `Http request`, `GraphQL` and `WebSockets`.
+2.  🧲 Intercept your requests and responses for testing and debugging.
+3.  📤 Share request details as json or as `cURL` to re-run it again (ex. `Postman`) or both.
+4.  ✂️ Selectable text to be able to select just a part of the response for example
+5.  📋 Click to copy each request part (Headers, Body, Response, ...).
+6.  🎨 Smothe ui with Expandable/Collapsible sections.
+7.  🌳 JsonTree View for previewing the rquest as json tree not just a text.
+8.  🌗 Support for Dark/Light Mode Toggle.
 
-And more and more
+And more!
 
 ##### To get the `RequestsInspector` widget on your screen:
 
@@ -24,7 +29,10 @@ And more and more
 
 2.  📱👈 : **Long-Press** on any free space on the screen.
 
-<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mobile_list.jpg" width ="280" /> <img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mobile_request.jpg" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_list_dark.jpg" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_request_json_dark.jpg" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_options_light.jpg" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_request_txt_light.jpg" width ="280" />
 
 Also you can share the request details as (**Log** or **cURL** command) with your team to help them debug the API requests.
 
@@ -47,7 +55,7 @@ void main() {
 }
 ```
 
-### 1\. RESTful API:
+### 1. RESTful API:
 
 #### Using `Dio`, pass by `RequestsInspectorInterceptor()` to `Dio.interceptors` and we are good to go 🎉️🎉️.
 
@@ -120,11 +128,12 @@ Future<List<Post>> fetchPosts() async {
 
 ### Finaly, `Shake` your phone to get the `Inspector`
 
-\<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests\_inspector/main/images/mobile\_list.jpg" width ="280" /\> \<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests\_inspector/main/images/mobile\_request.jpg" width ="280" /\>
+<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mobile_list.jpg" width ="280" /> 
+<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mobile_request.jpg" width ="280" />
 
 ---
 
-### 2\. GraphQl:
+### 2. GraphQl:
 
 To use `requests_inspector` with [graphql_flutter](https://pub.dev/packages/graphql_flutter) library.
 you jus need to wrap your normal `HttpLink` with our `GraphQLInspectorLink` and we are done.
@@ -194,7 +203,7 @@ Widget build(BuildContext context) {
 
 - Second, just enable it from Inspector and it will stop all your requests and responses.
 
-\<img src="https://raw.githubusercontent.com/Abdelazeem777/requests\_inspector/main/images/stopper\_feature.gif" width="280"/\>
+<img src="https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/stopper_feature.gif" width="280"/>
 
 ---
 
@@ -230,9 +239,14 @@ void main() {
 
 ## Some images
 
-<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/web_list.png" width ="280" /> <img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/web_request.png" width ="280" />
-<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mac_list.png" width ="280" /> <img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mac_request.png" width ="280" />
-<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/linux_list.png" width ="280" /> <img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/linux_request.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/main/images/new_web_list_light.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/main/images/new_web_request_json_dark.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/main/images/new_web_selectable_txt.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/main/images/new_web_options.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mac_list.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mac_request.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/linux_list.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/linux_request.png" width ="280" />
 
 ## 🤝 Contributors
 
@@ -327,14 +341,14 @@ Contributors helping improve `requests_inspector`: 💻🎨📖🚧
 
 ### How to Contribute
 
-We welcome contributions from everyone\! Here's how you can help:
+We welcome contributions from everyone! Here's how you can help:
 
 1.  **Report Issues**: Found a bug or have a feature request? [Open an issue](https://github.com/Abdelazeem777/requests_inspector/issues)
-2.  **Submit Pull Requests**: Have a fix or improvement? We'd love to review your PR\!
+2.  **Submit Pull Requests**: Have a fix or improvement? We'd love to review your PR!
 3.  **Improve Documentation**: Help us make the docs clearer and more comprehensive
 4.  **Share Feedback**: Let us know how you're using the package and what could be better
 
-To add yourself as a contributor, simply follow the contribution guidelines and your efforts will be recognized here\!
+To add yourself as a contributor, simply follow the contribution guidelines and your efforts will be recognized here!
 
 ---
 
