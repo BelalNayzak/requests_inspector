@@ -29,10 +29,7 @@ And more!
 
 2.  📱👈 : **Long-Press** on any free space on the screen.
 
-<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_list_dark.png" width ="280" />
-<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_request_json_dark.png" width ="280" />
-<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_options_light.png" width ="280" />
-<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_request_txt_light.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_list_dark.png" width ="280" /> <img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_request_json_dark.png" width ="280" /> <img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_options_light.png" width ="280" /> <img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_mobile_request_txt_light.png" width ="280" />
 
 Also you can share the request details as (**Log** or **cURL** command) with your team to help them debug the API requests.
 
@@ -128,8 +125,7 @@ Future<List<Post>> fetchPosts() async {
 
 ### Finaly, `Shake` your phone to get the `Inspector`
 
-<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mobile_list.jpg" width ="280" /> 
-<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mobile_request.jpg" width ="280" />
+<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mobile_list.jpg" width ="280" /> <img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mobile_request.jpg" width ="280" />
 
 ---
 
@@ -239,14 +235,8 @@ void main() {
 
 ## Some images
 
-<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/main/images/new_web_list_light.png" width ="280" />
-<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/main/images/new_web_request_json_dark.png" width ="280" />
-<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/main/images/new_web_selectable_txt.png" width ="280" />
-<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/main/images/new_web_options.png" width ="280" />
-<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mac_list.png" width ="280" />
-<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mac_request.png" width ="280" />
-<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/linux_list.png" width ="280" />
-<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/linux_request.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_web_list_light.png" width ="280" /> <img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_web_request_json_dark.png" width ="280" /> <img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_web_selectable_txt.png" width ="280" /> <img src = "https://raw.githubusercontent.com/BelalNayzak/requests_inspector/docs-reademe-updated/images/new_web_options.png" width ="280" />
+<img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mac_list.png" width ="280" /> <img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/mac_request.png" width ="280" /> <img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/linux_list.png" width ="280" /> <img src = "https://raw.githubusercontent.com/Abdelazeem777/requests_inspector/main/images/linux_request.png" width ="280" />
 
 ## 🤝 Contributors
 
