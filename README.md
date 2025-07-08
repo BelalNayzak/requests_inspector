@@ -8,7 +8,7 @@
 
 [![pub package](https://img.shields.io/pub/v/requests_inspector.svg)](https://pub.dev/packages/requests_inspector)
 
-A Flutter package for **logging** API requests (**Http Requests** & **GraphQL**) requests.
+A Flutter package for **Logging**, **Inspecting**, and **Debugging** API requests including **Http Requests** , **GraphQL** , **WebSocket traffic** in real time.
 
 ### Main Features:
 
